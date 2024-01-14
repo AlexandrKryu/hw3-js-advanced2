@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <br />
+    <button class="clearLocalStorage">Очистить локальное хранилище</button>
+    <br />
+    <h1>Добавить продукт</h1>
+    <div class="input-form">
+      <p>
+        <input
+          type="text"
+          class="input__product"
+          placeholder="Введите продукт"
+        />
+      </p>
+      <p>
+        Отзыв о продукте<br />
+        <textarea
+          class="input__review"
+          name="comment"
+          cols="30"
+          rows="3"
+        ></textarea>
+      </p>
+      <button type="submit" class="btn__submit">отправить</button>
+      <br />
+      <h1>Отзывы на продукты</h1>
+      <div class="output__reviews"></div>
+
+      <script src="addProductsAndReviews.js"></script>
+      <script src="showReviews.js"></script>
+    </div>
+  </body>
+</html>
